@@ -1,0 +1,97 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa; /* Ubah warna latar belakang */
+}
+
+.sidebar {
+    width: 250px;
+    height: 100%;
+    background-color: #007bff; /* Ubah warna sidebar */
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding-top: 20px;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+.sidebar ul li {
+    margin-bottom: 10px;
+}
+
+.sidebar ul li a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    transition: background-color 0.3s ease;
+    border-radius: 5px;
+}
+
+.sidebar ul li a:hover {
+    background-color: #0056b3; /* Ubah warna hover sidebar */
+}
+
+.main {
+    margin-left: 250px;
+    padding: 20px;
+}
+
+h2 {
+    color: #007bff; /* Ubah warna judul */
+    margin-bottom: 20px;
+}
+
+.table-container {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table th,
+table td {
+    border: none;
+    padding: 10px; 
+}
+
+table th {
+    background-color: #007bff; /* Ubah warna latar belakang header */
+    color: #fff;
+    border-radius: 5px;
+}
+
+table th:first-child,
+table td:first-child {
+    width: 20%;
+}
+
+table td {
+    text-align: center;
+}
+
+table td button {
+    padding: 8px 15px; 
+    margin: 0 5px;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px; 
+    transition: background-color 0.3s ease;
+}
+
+table td button:hover {
+    background-color: #0056b3;
+}
